@@ -12,14 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
-
     <title>Personal Website</title>
   </head>
   <body class="m-0">
     <!-- Header Section -->
-    <header id="heading" class="max-w-[1440px] m-auto">
+    <header id="heading" class="max-w-[1440px] m-auto p-5">
       <nav
-        class="flex justify-center mt-5 md:justify-center md:mt-5 lg:justify-end gap-4 lg:mt-[37px] lg:mr-[142px]"
+        class="max-w-7xl m-auto flex justify-center md:justify-center mt-5 md:mt-5 lg:justify-end gap-4 lg:mt-[37px] lg:mr-[142px]"
       >
         <a href="#" class="font-medium text-[1rem]">About</a>
         <a href="#" class="font-medium text-[1rem]">Work</a>
@@ -49,7 +48,7 @@
               in massa consectetur
             </p>
             <button
-              class="border-none bg-[#F46060] text-white text-[1rem] font-normal py-[18px] px-14 rounded-md cursor-pointer hover:bg-red-500"
+              class="border-none bg-[#F46060] text-white text-[1rem] font-normal py-[18px] px-14 rounded-md cursor-pointer transition-[100, scale] duration-300 ease-in-out hover:scale-150 hover:shadow-2xl hover:bg-red-500"
             >
               Hire Me
             </button>
@@ -90,7 +89,7 @@
               type and scrambled it to make a type specimen book.
             </p>
             <button
-              class="border-none flex gap-2.5 bg-[#F46060] text-white text-[1rem] font-normal py-[18px] px-14 rounded-md cursor-pointer hover:bg-red-500"
+              class="border-none flex gap-2.5 bg-[#F46060] text-white text-[1rem] font-normal py-[18px] px-14 rounded-md cursor-pointer hover:bg-red-500 transition-[100, scale] duration-300 ease-in-out hover:scale-150 hover:shadow-2xl"
             >
               <img src="./icons/download.png" alt="" />Download CV
             </button>
@@ -100,9 +99,9 @@
       <!-- Latest Working Project Section -->
       <section
         id="latest-working"
-        class="max-w-[1440px] m-auto bg-gray-200 p-4 pt-[30px] md:pt-[60px] lg:pt-[75px]"
+        class="max-w-[1440px] m-auto bg-gray-200 p-4 pt-[30px] md:pt-[60px] lg:pt-[75px] lg:mt-[100px]"
       >
-        <h1 class="text-[#363958] text-[3rem] text-center font-bold">
+        <h1 class="text-[#363958] text-[1.5rem] md:text-[2rem] lg:text-[3rem] text-center font-bold">
           <span class="text-[#F46060]">LATEST</span> WORKING PROJECT
         </h1>
         <div
@@ -155,12 +154,22 @@
         >
           <h3 class="text-white text-[3rem] whitespace-nowrap font-bold">Work Inquiry</h3>
           <button
-            class="border-none bg-[#F46060] text-white text-[1rem] whitespace-nowrap font-bold py-[18px] px-8 rounded-md cursor-pointer hover:bg-red-500"
+            class="border-none bg-[#F46060] text-white text-[1rem] whitespace-nowrap font-bold py-[18px] px-8 rounded-md cursor-pointer hover:bg-red-500 transition-[100, scale] duration-300 ease-in-out hover:scale-150 hover:shadow-2xl"
           >
             Let's Chat
           </button>
         </div>
       </section>
     </main>
+    <!-- Footer Section -->
+    <footer class="max-w-[1440px] m-auto p-5 pb-[30px] md:pb-10 lg:pb-20 lg:mt-10 ">
+      <h3 class="text-[#696871] text-[1.5rem] font-bold text-center">Stay connected</h3>
+      <h1 class="text-[#363958] text-[36px] font-bold text-center">hello@design.com</h1>
+      <div class="flex flex-row gap-[27px] items-center justify-center mt-7">
+        <img height="40px" width="40px" src="./icons/image 6.png" alt="">
+        <img height="40px" width="40px" src="./icons/Group 33059.png" alt="">
+        <img height="40px" width="40px" src="./icons/image 7.png" alt="">
+      </div>
+    </footer>
   </body>
 </html>
